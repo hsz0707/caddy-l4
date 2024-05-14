@@ -17,8 +17,8 @@ package l4echo
 import (
 	"io"
 
-	"github.com/caddyserver/caddy/v2"
-	"github.com/mholt/caddy-l4/layer4"
+	"github.com/caddyserver/caddy"
+	"github.com/mholt/caddy-l4/tree/master/layer4"
 )
 
 func init() {
